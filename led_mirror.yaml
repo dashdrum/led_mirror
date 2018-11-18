@@ -1,0 +1,16 @@
+##  Sample Home Assistant configuration code.
+
+light:
+
+  - platform: mqtt_json
+    name: led_mirror
+    state_topic: "led_mirror/state"
+    command_topic: "led_mirror/set"
+    brightness: true
+    rgb: true
+    color_temp: true
+    white_value: true
+    effect: true
+    effect_list: [colorfade_slow, colorfade_fast, flash, super_white]
+    optimistic: false
+    qos: 0
