@@ -46,7 +46,7 @@ enum strip {
 #define CONFIG_MQTT_PAYLOAD_ON "ON"
 #define CONFIG_MQTT_PAYLOAD_OFF "OFF"
 
-#define CONFIG_MQTT_SENSOR_TOPIC "ub/sensor1"
+#define CONFIG_MQTT_SENSOR_TOPIC "YourDevice"
 
 // Miscellaneous
 // Default number of flashes if no value was given
